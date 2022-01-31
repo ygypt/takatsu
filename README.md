@@ -6,3 +6,5 @@
 + `passwd`
 + `sudo apt install xorg feh`
 + `startx`
+
++ you can now `scp` a new `takatsu.png` into `/home/pi/` and feh will automatically update the picture within 60 seconds

@@ -3,6 +3,8 @@
 + use raspberry pi image tool (or etcher but its fucky) to flash sd card with **raspbian lite** iso
 
 #### configure
++ mount `sdc2 mnt`, `sdc1 mnt/boot`
+++ windows will do this automatically
 + copy contents of `boot` to the `/boot` directory in sd card [an empty `ssh` file and a `wpa_supplicant.conf` template]
 + edit `wpa_supplicant.conf` to include the correct SSID and PASS
 + edit `config.txt` in the `/boot` directory: uncomment `#config_hdmi_boost=4`
